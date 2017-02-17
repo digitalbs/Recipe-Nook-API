@@ -1,0 +1,31 @@
+{
+  "name": "kochen-api",
+  "version": "0.0.0",
+  "description": "A recipe API service.",
+  "main": "server.js",
+  "scripts": {
+    "test": "lab -r console -r html"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Brian Schneider",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "bluebird": "^3.4.1",
+    "boom": "^3.2.2",
+    "glob": "^7.0.5",
+    "hapi": "^14.2.0",
+    "hapi-auth-jwt": "^4.0.0",
+    "hapi-swagger": "^7.6.0",
+    "inert": "^4.1.0",
+    "joi": "^9.0.4",
+    "mongoose": "^4.5.9",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^12.1.0"
+  }
+}
